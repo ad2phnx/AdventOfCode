@@ -73,5 +73,7 @@ executable AdventOfCode
     -- Directories containing source files.
     hs-source-dirs:   app
 
+    other-modules: Days.Day01
+
     -- Base language which the package is written in.
     default-language: Haskell2010
