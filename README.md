@@ -2,4 +2,6 @@
 
 ## Advent of Code
 
-- [x] Day 1
+- [ ] Day 1
+  - [x] Part 1
+  - [ ] Part 2
