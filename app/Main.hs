@@ -4,10 +4,10 @@ import Days.Day01
 
 main :: IO ()
 main = do
-  contents <- readFile "input/day01.txt"
-  let input = parseInput contents
-  let linesOfFile = lines contents
-  solvePart1AndPrint input
-  printExtractedDigits linesOfFile
+  contentsD1 <- readFile "input/day1.txt"
+  solvePart1AndPrint contentsD1
+  solvePart2AndPrint contentsD1
+  contentsD2 <- readFile "input/day2.txt"
+  solvePart1AndPrint contentsD2
 
--- print $ solvePart2 linesOfFile
+-- solvePart2AndPrint contentsD2
